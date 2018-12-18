@@ -1,4 +1,4 @@
-node('docker') {
-  stage 'Checkout'
-  checkout scm
+node("docker") {
+    stage 'Checkout'
+    checkout scm
 }
