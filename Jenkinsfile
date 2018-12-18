@@ -1,4 +1,4 @@
-node('docker-agent') {
+node('docker') {
   deleteDir()
 
   stage 'Checkout'
